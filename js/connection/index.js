@@ -38,7 +38,7 @@ export default class Connection {
                 credentials: 'same-origin',
                 headers: {
                     'Content-Type': 'application/json',
-                    'Accept': 'text/html, application/xhtml+xml',
+                    'Accept': 'application/json',
                     'X-Livewire': true,
 
                     // We'll set this explicitly to mitigate potential interference from ad-blockers/etc.
